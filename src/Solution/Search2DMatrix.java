@@ -1,3 +1,5 @@
+package Solution;
+
 class Search2DMatrix{
     public static boolean solution(int[][] matrix,int target) {
         if(matrix.length==0||matrix==null||matrix[0].length==0)return false;
