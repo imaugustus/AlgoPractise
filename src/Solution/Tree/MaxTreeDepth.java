@@ -9,7 +9,7 @@ package Solution.Tree;
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+public class MaxTreeDepth {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         if(t1==null && t2==null) return null;
         else if(t1==null && t2!=null){
