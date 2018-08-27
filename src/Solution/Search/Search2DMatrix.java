@@ -1,4 +1,4 @@
-package Solution;
+package Solution.Search;
 
 class Search2DMatrix{
     public static boolean solution(int[][] matrix,int target) {
